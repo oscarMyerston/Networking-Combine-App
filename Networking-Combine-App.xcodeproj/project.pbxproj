@@ -13,6 +13,8 @@
 		8D844FA3235A1CE600B7FD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D844FA2235A1CE600B7FD36 /* Assets.xcassets */; };
 		8D844FA6235A1CE600B7FD36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D844FA4235A1CE600B7FD36 /* LaunchScreen.storyboard */; };
 		8D844FAE235A1D1100B7FD36 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D844FAD235A1D1100B7FD36 /* PostListTableViewController.swift */; };
+		8D844FB2235A1DE500B7FD36 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D844FB1235A1DE500B7FD36 /* Post.swift */; };
+		8D844FB4235A1DF900B7FD36 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D844FB3235A1DF900B7FD36 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8D844FA5235A1CE600B7FD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D844FA7235A1CE600B7FD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D844FAD235A1D1100B7FD36 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		8D844FB1235A1DE500B7FD36 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8D844FB3235A1DF900B7FD36 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		8D844F98235A1CE500B7FD36 /* Networking-Combine-App */ = {
 			isa = PBXGroup;
 			children = (
+				8D844FB0235A1DD900B7FD36 /* Services */,
+				8D844FAF235A1DD300B7FD36 /* Models */,
 				8D844F99235A1CE500B7FD36 /* AppDelegate.swift */,
 				8D844F9B235A1CE500B7FD36 /* SceneDelegate.swift */,
 				8D844F9F235A1CE500B7FD36 /* Main.storyboard */,
@@ -65,6 +71,22 @@
 				8D844FAD235A1D1100B7FD36 /* PostListTableViewController.swift */,
 			);
 			path = "Networking-Combine-App";
+			sourceTree = "<group>";
+		};
+		8D844FAF235A1DD300B7FD36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D844FB1235A1DE500B7FD36 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D844FB0235A1DD900B7FD36 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D844FB3235A1DF900B7FD36 /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				8D844FAE235A1D1100B7FD36 /* PostListTableViewController.swift in Sources */,
 				8D844F9A235A1CE500B7FD36 /* AppDelegate.swift in Sources */,
 				8D844F9C235A1CE500B7FD36 /* SceneDelegate.swift in Sources */,
+				8D844FB4235A1DF900B7FD36 /* Webservice.swift in Sources */,
+				8D844FB2235A1DE500B7FD36 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
